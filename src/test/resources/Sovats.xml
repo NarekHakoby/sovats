@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Sovats" verbose="1">
+	<test name="Home Page">
+		<classes>
+<class name="am.sovats.registration.SovatsRegistrationPageTest">
+				<methods>
+					<include name="RegistrationTestOne" />
+					<include name="" />
+					<include name="" />
+				</methods>
+			</class>
+			<!--  <class name="am.sovats.home.SovatsHomePageTest">
+				<methods>
+					<include name="" />
+					<include name="" />
+					<include name="" />
+				</methods>
+			</class>
+			<class name="am.sovats.login.SovatsLoginPageTest">
+				<methods>
+					<include name="LoginTestOne()" />
+					<include name="" />
+					<include name="" />
+				</methods>
+			</class>
+			
+			
+			<class name="am.sovats.lng.SovatsLngPageTest">
+				<methods>
+					<include name="LngTestOne" />
+					<include name="LngTestTwo" />
+					<include name="LngTestThree" />
+				</methods>
+			</class>-->
+
+
+
+		</classes>
+	</test>
+</suite>
